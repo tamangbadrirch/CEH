@@ -1,7 +1,7 @@
 # CEH: Certified Ethical Hacker Course 
 #Day 1: Introduction to CEH V12 and Information Security
 
-#Introduction to CEH and EC-Council
+##Introduction to CEH and EC-Council
   CEH (Certified Ethical Hacker) was established by the EC-Council in 2001.
   
   The EC-Council offers a range of other cybersecurity certifications, including:
