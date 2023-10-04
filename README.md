@@ -1,4 +1,10 @@
 # CEH: Certified Ethical Hacker Course 
+Table of Contents
+Day1 : Introduction to CEH V12 and Information Security 
+[Day 2: Cybersecurity Attack Fundamentals and Hacking Methodology](#day-2-cybersecurity-attack-fundamentals-and-hacking-methodology)
+
+
+
 # Day 1: Introduction to CEH V12 and Information Security
 
 # Introduction to CEH and EC-Council
@@ -115,4 +121,99 @@ AAA is a critical concept in security:
 Authentication: Verifying the identity of users or systems.
 Authorization: Granting appropriate access rights to authenticated users.
 Accounting: Keeping records of user actions for security auditing and analysis.
+
+## Day 2: Cybersecurity Attack Fundamentals and Hacking Methodology
+# Attacking Motives and Methods
+  Attacks consist of three components: Motive (Goal), Method (Technique), and Vulnerability (Weakness).
+  * Motive pertains to what the attacker aims to achieve in targeting a system.
+  * Method involves the processes or techniques followed during an attack. Threat intelligence is used to guess the attacker's method.
+  * Vulnerability refers to the weaknesses in the target system.
+
+# Motives behind Information Security Attacks
+  Various motives behind information security attacks include:
+  * Disrupting business continuity
+  * Stealing information and manipulating data
+  * Creating fear and chaos by disrupting critical infrastructures
+  * Causing financial loss to the target
+  * Propagating religious or political beliefs
+  * Achieving a state's military objectives
+  * Damaging the reputation of the target
+  * Taking revenge
+  * Demanding ransom
+
+** Exploitation vs. Attack**
+  * Exploitation involves gaining access through actions such as system hacking, password cracking, and data manipulation.
+  * Attack refers to disrupting the system, which may not necessarily lead to exploitation. Examples include DoS attacks and SQL injection.
+
+# Classification of Attacks
+  Attacks can be classified into five types:
+  * Passive attacks: Collect information without causing harm (e.g., sniffing, eavesdropping).
+  * Active attacks: Take action, disrupting systems (e.g., DoS, MITM, session hijacking, SQL injection).
+  * Close-In attacks: Proximity-based attacks (e.g., social engineering, eavesdropping, shoulder surfing).
+  * Insider Attacks: Perpetrated by employees or ex-employees, often violating rules (e.g., keyloggers, backdoors, malware).
+  * Distribution Attacks: Tampering with hardware or software (e.g., vendor-based attacks, security testing software).
+
+**CEO and Administrative Access**
+  Limiting full administrative access for high-level personnel is recommended.
+
+* Wiretapper devices can compromise security.
+
+# Information Warfare
+  Information Warfare (InfoWar) is a strategic approach where attackers attack, and defenders defend, akin to a game.
+
+# Defensive Warfare vs. Offensive Warfare
+  * Defensive Warfare involves prevention, deterrence, alerts, detection, emergency preparedness, and response.
+  * Offensive Warfare includes web app attacks, web server attacks, malware attacks, MITM attacks, and system hacking.
+
+# Hacking Methodology & Framework
+Hacking methodologies provide guidelines for structured processes.
+# CEH Hacking Methodology (CHM)
+* Footprinting: Gather information from outside sources.
+* Scanning: Check target's IT infrastructure, location, and interact directly.
+* Enumeration: Collect detailed and in-depth system information.
+* Vulnerability Analysis: Use VA tools after gathering all available info.
+* System Hacking:
+  * Gaining Access: Crack passwords, exploit vulnerabilities.
+  * Escalating Privileges
+  * Maintaining Access: Execute applications, hide files, clear logs.
+
+# Cyber Kill Chain
+The Cyber Kill Chain is a concept and framework developed by Lockheed Martin, a global aerospace and defense company, to describe the stages of a cyberattack. 
+It is used to understand, identify, and prevent cyber threats effectively. The term "kill chain" is borrowed from military strategy and refers to the sequence of steps that an attacker goes through to achieve their objectives. 
+In the context of cybersecurity, the Cyber Kill Chain outlines the stages of a cyberattack, from the initial reconnaissance to the final objective.
+It consists of the following phases:
+* Reconnaissance:
+  Attackers gather information about the target.
+  Example: Scanning the target's network to find open ports and services.
+  Tools: Nmap, Shodan, Recon-ng
+
+* Weaponization:
+  Attackers prepare or acquire malicious tools.
+  Example: Creating malware with a payload to exploit a vulnerability.
+  Tools: Metasploit, SET (Social-Engineer Toolkit), custom malware
+
+* Delivery:
+  Attackers deliver the malicious payload to the target.
+  Example: Sending a phishing email containing malware attachment.
+  Tools: Phishing kits, malicious email attachments, exploit kits
+
+* Exploitation:
+  Attackers execute the payload to exploit a vulnerability.
+  Example: Running code in a malicious attachment to gain control over a system.
+  Tools: Exploit frameworks (e.g., Metasploit), custom exploits
+
+* Installation:
+  Attackers establish a persistent presence on the compromised system.
+  Example: Installing backdoors or rootkits to maintain access.
+  Tools: Remote administration tools (RATs), Trojans, custom scripts
+
+* Command and Control (C2):
+  Attackers set up a communication channel for remote control.
+  Example: Malware connecting to a remote server controlled by the attacker.
+  Tools: RATs with C2 functionality, reverse shells
+
+* Actions on Objectives:
+  Definition: Attackers achieve their ultimate goal, such as data theft or disruption.
+  Example: Exfiltrating sensitive data or carrying out a destructive attack.
+  Tools: Data exfiltration tools, ransomware, destructive malware
 
