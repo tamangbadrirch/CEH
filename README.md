@@ -3,7 +3,7 @@ Table of Contents
 [Day 1: Introduction to CEH V12 and Information Security](#day-1-introduction-to-ceh-v12-and-information-security)
 [Day 2: Cybersecurity Attack Fundamentals and Hacking Methodology](#day-2-cybersecurity-attack-fundamentals-and-hacking-methodology)
 [Day 3: Ethical Hacking](#day-3-ethical-hacking)
-
+[Day 4: Risk, Threat, and Vulnerability](#day-4-risk-threat-and-vulnerability)
 
 
 
@@ -364,3 +364,148 @@ Protecting the organization's assets requires multiple layers of security: Each 
 * **Application Software Layer:** Secure applications by following best practices and implementing code reviews. Deploy digital certificates, ssl, tls, encryption in diffrents stages of data
 
 * **Data Layer:** Protect data through encryption, both in transit and at rest. We can use encryption and use secure channels. 
+
+
+# Day 4: Risk, Threat, and Vulnerability
+## Recap
+**Tactics, Techniques, and Procedures (TTP's)**
+
+- **Tactics:** These encompass the full strategic plans in the world of cyber operations. They answer the question: "What is the plan to achieve the objective?"
+
+- **Techniques:** Techniques are more focused on the execution part. They address the question: "How should the plan be executed effectively?"
+
+- **Procedures:** Procedures break down the techniques into detailed steps, providing a clear process for achieving each plan. They answer: "What specific steps need to be taken?"
+
+**MITRE ATT&CK Framework**
+The MITRE ATT&CK framework is a valuable tool for understanding the tactics and techniques that adversaries use to compromise systems and the measures to defend against these tactics.
+It's critical to comprehend how attacks are carried out and how to safeguard against them effectively.
+
+**Recon to Maintain**
+This phase in cyber operations is where adversaries maintain their presence within a system. They do this by leveraging the infrastructure they have already established.
+It involves keeping access and control over a compromised system or network, allowing adversaries to achieve their objectives without being detected.
+
+## Risk, Threat & Vulnerability
+
+**Risk**
+Risk in cybersecurity refers to the degree of uncertainty that an adverse event may cause damage to a system. It is the essence of risk management within the field.
+Understanding and managing risk is a fundamental aspect of cybersecurity. By identifying risks and their potential impacts, organizations can develop strategies to mitigate these risks effectively.
+
+**Threat**
+Threats are the risk-creating factors. For example, if a few drops of water fall on a laptop, the risk is that the laptop might be damaged, and the threat is the water itself.
+Threats are essential drivers of risk in the cybersecurity context. Recognizing and mitigating threats is vital for maintaining a secure environment.
+
+**Risk Levels and Risk Matrix**
+Risk is often categorized into levels, typically defined as High, Medium, and Low. These levels help prioritize actions for risk mitigation.
+Risk matrix provides a structured approach to defining risk levels based on factors such as the potential consequences and the likelihood of an event occurring.
+
+**Consequences**
+Examining the consequences of negative effects is crucial to risk management. These consequences are often quantified based on their frequency of occurrence and the impact they may have on the organization.
+By assessing the consequences and their likelihood, organizations can better understand the potential impact of different risks.
+
+**Risk Management**
+Risk management is a broad and critical topic in cybersecurity. The main objective is to reduce and maintain risk at an acceptable level, defined by the organization's tolerance level.
+Risk management involves several key components, including:
+
+- **Risk Identification:** Identifying the causes and sources of risk.
+- **Risk Assessment:** Evaluating the potential impact of risks.
+- **Risk Treatment:** Developing strategies to mitigate and respond to risks.
+- **Risk Tracking:** Monitoring the effectiveness of risk treatments.
+- **Risk Review:** Continuously reviewing and updating the risk management process.
+
+It's an ongoing and iterative process aimed at maintaining a secure environment.
+
+**Threat**
+In the analogy of "Threat is like police, Risk is like a doctor," threats are the law enforcement officers actively protecting the system from malicious activities.
+Just as police safeguard a community, threats help maintain the security and integrity of the digital environment.
+
+**Cyber Threat Intelligence**
+Cyber Threat Intelligence involves the collection and analysis of information regarding threats, adversaries, and the patterns that provide insights to make informed decisions.
+
+It can be categorized into various types, including:
+- **Strategic:** High-level intelligence focused on long-term visions and plans. It informs top-level management decisions.
+- **Tactical:** Based on strategic plans, tactical intelligence defines how to mitigate risks. It involves the creation of processes and actions.
+- **Operational:** This level involves technical details. It specifies how to execute tactical plans, such as the use of specific servers, firewalls, or in-house cloud services.
+- **Technical:** Highly technical and specialized intelligence concerning hardware and software.
+
+**Threat Intelligence Lifecycle**
+The Threat Intelligence Lifecycle consists of the following stages:
+1. **Planning & Direction:** Determining the goals of intelligence gathering and analysis.
+2. **Collection:** Gathering relevant data and information from various sources.
+3. **Processing & Exploitation:** Analyzing and using collected data to identify and address threats effectively.
+This lifecycle ensures that intelligence is efficiently obtained, processed, and applied to enhance cybersecurity measures.
+
+**Threat Modeling**
+Threat modeling involves studying threats to categorize and understand them. It's an essential approach for analyzing the security of an application or system.
+
+The threat modeling process includes:
+- **Identifying Security Objectives:** Defining the goals that need to be achieved.
+- **Application Overview:** Understanding the components, data flows, and trust boundaries within the application.
+- **Decomposing the App:** Detailed threat analysis to uncover vulnerabilities.
+- **Identifying Threat-Control Scenarios:** Developing strategies to mitigate threats.
+- **Identifying Vulnerabilities:** Identifying weaknesses related to the threats found.
+Tools like Virustotal can be useful in this context.
+
+# Incident Management
+**Incident management** focuses on handling incidents that occur, especially in the context of security breaches and cyberattacks. It involves various aspects:
+
+- **Vulnerability Handling:** Addressing vulnerabilities to prevent incidents.
+- **Artifact Handling:** Managing evidence and artifacts related to incidents.
+- **Announcements:** Communicating information about incidents to relevant stakeholders.
+- **Alerts:** Setting up alert systems to detect and respond to incidents.
+- 
+Incident management often necessitates documentation and the formation of an incident management committee.
+
+**Incident Handling & Response**
+Incident handling involves a structured approach to dealing with security incidents. It comprises several key phases:
+- **Triage:** Prioritizing incidents based on their severity.
+- **Reporting and Detection:** Reporting and detecting security incidents.
+- **Incident Response:** Responding to and mitigating the impact of incidents.
+- **Analysis:** Analyzing incidents to understand their nature and origin.
+
+# Role of AI and ML in Cyber Security
+**Artificial Intelligence (AI) and Machine Learning (ML)** play a significant role in cybersecurity. Their contributions include:
+- Identifying New Exploits and Weaknesses: AI and ML are capable of detecting new and previously unknown vulnerabilities.
+- Reporting Deviations and Anomalies: They can identify unusual patterns or behaviors that may signal an attack.
+- Unsupervised Self-Learning Systems: AI and ML systems can adapt and improve their threat detection capabilities over time.
+- Increase in Computing Power and Data Handling: Advancements in AI and ML are driven by enhanced computing power and the collection and storage of vast amounts of data.
+
+AI and ML are employed to prevent cyberattacks through various means, including password protection, threat detection, behavioral analysis, network security, AI-based antivirus, and fraud detection.
+
+# PCI-DSS (Payment Card Industry Data Security Standard)
+The **PCI-DSS** is a framework that sets the standards for securing payment card data, such as debit, credit, prepaid, and ATM cards. It applies to all entities involved in payment card processing and ensures that cardholder data is handled securely.
+
+The PCI-DSS framework comprises three components: architecture, structure, standards (compulsory), and guidelines (recommendations).
+
+# ISO/IEC 27001
+**ISO/IEC 27001** pertains to quality standards for IT systems, focusing on the establishment, implementation, and maintenance of an Information Security Management System (ISMS). The ISMS ensures that an organization's security requirements and objectives are cost-effectively managed while maintaining compliance with laws and regulations. It consists of 93 controls, and the 2022 version is the latest. ISO 27001 certification provides assurance of a company's commitment to information security management.
+
+Compliance with ISO 27001 involves establishing, implementing, and maintaining a security management system that:
+- Addresses security requirements and objectives.
+- Is cost-effective.
+- Ensures compliance with laws and regulations.
+- Manages information security processes effectively.
+IT system disposal, such as the secure destruction of hard drives, is a crucial aspect of maintaining information security.
+
+# HIPAA (Health Insurance Portability and Accountability Act)
+**HIPAA** primarily relates to health-related data, covering privacy, security, enforcement rules, national identifier requirements, and electronic transaction and code set standards. It is essential for maintaining the privacy and security of patient health information.
+
+# GDPR (General Data Protection Regulation)
+**GDPR** sets stringent privacy and security regulations concerning the processing of personal data. It prohibits the sharing of personal data without the consent of the individuals concerned. GDPR is considered one of the strictest privacy and security laws globally, requiring organizations to maintain high standards for data protection.
+
+# ISO/IEC 27002
+**Overview:** ISO/IEC 27002 is a code of practice for information security management. It provides a framework of security controls and guidelines for establishing, implementing, and maintaining an information security management system (ISMS).
+
+**Purpose:** ISO 27002 helps organizations protect their information assets, reduce risks, and ensure compliance with legal and regulatory requirements. It offers a customizable set of controls to enhance information security.
+
+**Alignment:** It closely aligns with ISO 27001, which outlines ISMS requirements. ISO 27002 provides detailed guidance on implementing security controls.
+
+# SOC 2 (Service Organization Control 2)
+**Overview:** SOC 2 is a framework developed by AICPA for assessing the security, availability, processing integrity, confidentiality, and privacy of customer data by service organizations.
+
+**Trust Service Principles:** SOC 2 is based on five trust service principles: security, availability, processing integrity, confidentiality, and privacy.
+
+**Audience:** SOC 2 reports are intended for customers, regulators, and stakeholders to provide assurance regarding a service organization's data security and privacy controls.
+
+**Use Cases:** Ideal for cloud service providers, data centers, and organizations handling customer data to demonstrate a commitment to data security and privacy.
+
+Both ISO/IEC 27002 and SOC 2 are significant in enhancing information security practices and trust in organizations. ISO 27002 is a code of practice that provides guidance for implementing an information security management system. SOC 2, on the other hand, assesses data security and privacy controls within service organizations, making it relevant for cloud providers and data centers.
