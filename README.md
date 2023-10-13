@@ -217,3 +217,49 @@ It consists of the following phases:
   Example: Exfiltrating sensitive data or carrying out a destructive attack.
   Tools: Data exfiltration tools, ransomware, destructive malware
 
+Day 3 - Ethical Hacking and Cybersecurity Fundamentals:
+
+Ethical Hacking and Cybersecurity Fundamentals:
+Ethical hacking involves authorized professionals attempting to identify and verify vulnerabilities in computer systems and networks.
+To be effective, ethical hackers need to adopt the mindset of potential attackers. This means thinking like a hacker and understanding their tactics.
+The Importance of Ethical Hackers:
+Ethical hackers play a crucial role in preventing unauthorized access, uncovering vulnerabilities, and preventing security breaches.
+They help safeguard customer data and strengthen an organization's security posture by proactively identifying and fixing security weaknesses.
+Ethical hackers also contribute to enhancing security awareness within organizations.
+Scope and Limitations:
+Defining the scope of ethical hacking is essential to outline what can and cannot be tested.
+Understanding the limitations helps determine the boundaries of ethical hacking. It's also important to consider hiring outside vendors to conduct tests to maintain objectivity.
+Vulnerability vs. Risk:
+Vulnerability refers to weaknesses in a system or its configurations that could be exploited. For example, not updating antivirus software exposes a system to vulnerabilities.
+Risk is the likelihood of a threat exploiting a vulnerability. In the context of the antivirus example, the risk is the potential for malware infections.
+Taking backups before performing Vulnerability Assessment and Penetration Testing (VAPT) is a precautionary measure.
+Testing should ideally be conducted in a staging environment that replicates the production environment. This avoids potential issues in the real system.
+Skills of an Ethical Hacker:
+Technical Skills:
+Ethical hackers need knowledge of major operating systems (e.g., Windows, Linux) and their vulnerabilities.
+Proficiency in networking concepts is essential for identifying vulnerabilities and understanding how attackers exploit them.
+They must be computer experts and knowledgeable about various aspects of cybersecurity.
+High technical knowledge in their domain of expertise allows them to conduct in-depth assessments.
+Non-Technical Skills:
+Ethical hackers must have the ability to continuously learn, keeping up with the evolving threat landscape.
+Strong work ethics, including honesty, integrity, and respect for privacy, are paramount.
+Compliance with an organization's security policies and adherence to local standards and laws are critical.
+Maintaining a polite and professional demeanor is essential when interacting with clients and stakeholders.
+Ethical hackers benefit from understanding the specific sector or organization they are working with.
+Information Assurance (IA):
+Information Assurance (IA) is the practice of ensuring the confidentiality, integrity, and availability of information.
+The CIA triad represents the core principles of IA: Confidentiality (preventing unauthorized access), Integrity (data accuracy and consistency), and Availability (information is accessible when needed).
+Authenticity ensures that information is protected during usage, processing, storage, and transmission.
+Designing Network and User Authentication:
+This aspect involves:
+Identifying network vulnerabilities and threats to assess risks.
+Identifying problems and resource requirements necessary for enhancing security.
+Creating plans for the required resource allocation.
+Applying suitable information assurance controls to mitigate risks.
+Certification and accreditation processes validate the system's security.
+Providing information assurance training to employees is essential to maintain security awareness.
+Defense in Depth:
+Defense in depth is a cybersecurity strategy that involves protecting every layer of a system's security.
+Layers can include physical security, system software (OS), application software, and data.
+Implementing security measures at each layer, such as firewalls, antivirus software, and encryption, helps mitigate risks and enhance overall security.
+
