@@ -1,9 +1,9 @@
 # CEH: Certified Ethical Hacker Course 
 Table of Contents
-[Day 1: Introduction to CEH V12 and Information Security](#day-1-introduction-to-ceh-v12-and-information-security)
-[Day 2: Cybersecurity Attack Fundamentals and Hacking Methodology](#day-2-cybersecurity-attack-fundamentals-and-hacking-methodology)
-[Day 3: Ethical Hacking](#day-3-ethical-hacking)
-[Day 4: Risk, Threat, and Vulnerability](#day-4-risk-threat-and-vulnerability)
+- [Day 1: Introduction to CEH V12 and Information Security](#day-1-introduction-to-ceh-v12-and-information-security)
+- [Day 2: Cybersecurity Attack Fundamentals and Hacking Methodology](#day-2-cybersecurity-attack-fundamentals-and-hacking-methodology)
+- [Day 3: Ethical Hacking](#day-3-ethical-hacking)
+- [Day 4: Risk, Threat, and Vulnerability](#day-4-risk-threat-and-vulnerability)
 
 
 
